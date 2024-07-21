@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
     background: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
     height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
 }
 
 .addUser{
@@ -12,6 +13,7 @@ body{
     padding: 40px;
     border-radius: 10px;
     box-shadow: 1px 1px 8px rgb(0,0, 0, 0.065);
+    font-size: 16px;
 }
 
 .addUserForm .input{
@@ -25,7 +27,7 @@ body{
 }
 
 .addUserForm .input input{
-    margin-top: 5px;
+    margin-top: px;
     padding: 10px;
 }
 
@@ -36,6 +38,14 @@ body{
     border-radius: 10px;
     border: 1px;
     padding: 10px;
+    font-size: 15px;
+}
+input{
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 2vh;
+    border: 1px solid #0c005a;
+    border-radius: 4px;
 }
 
 a {
@@ -67,5 +77,17 @@ a {
     color: #0c005a;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px rgb(0,0, 0, 0.7);
+}
+
+label{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #5C5C5C;
+    width: 250px;
+}
+
+p{
+    color: #0c005a;
 }
 

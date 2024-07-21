@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-
 body{
     background: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
     height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
 }
 
 .addUser{
@@ -37,6 +37,7 @@ body{
     border: 1px;
     padding: 10px;
 }
+
 
 a {
     color: #0c005a;

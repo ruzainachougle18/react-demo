@@ -10,10 +10,10 @@ const Login = () => {
             <form className="addUserForm">
                 <div className="input">
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="mail" placeholder="Enter your Email id" />
-                    <label for="password">Password:</label>
-                    <input type="password" id="p-word" placeholder="Enter password" />
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="mail" />
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="p-word" />
 
                     <button type="submit" class="create-btn">Login</button>
                 </div>
