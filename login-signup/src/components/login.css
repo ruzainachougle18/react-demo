@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+    height: 100vh;
+}
+
+.addUser{
+    margin: 50px auto;
+    width: 25%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgb(0,0, 0, 0.065);
+}
+
+.addUserForm .input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.addUserForm .input label{
+    margin: 10px;
+}
+
+.addUserForm .input input{
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.input button{
+    margin-top: 10px;
+    background-color: #0c005a;
+    color: white;
+    border-radius: 10px;
+    border: 1px;
+    padding: 10px;
+}
+
+a {
+    color: #0c005a;
+    font-weight: bold;
+}
+
+
+.login{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.login .login-btn-success{
+    background-color: green;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px;
+    font-weight: normal;
+}
+
+.login .login-btn-success{
+    width: 50%;
+}
+
+.login-btn-success{
+    text-decoration: none;
+}
+
+.addUser h3{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #0c005a;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0,0, 0, 0.7);
+}

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Signup = () => {
     return (
         <div className="addUser">
-            <h3>SignUp</h3>
+            <h3>Sign Up</h3>
             <form className="addUserForm">
                 <div className="input">
                     <label for="name">Name:</label>
@@ -21,7 +21,7 @@ const Signup = () => {
 
             <div class="login">
                 <p>Already have an account?</p>
-                <Link to="/login" type="submit" class="login-btn">Log In </Link>
+                <Link to="/login" type="submit" class="login-btn">Log In</Link>
             </div>
         </div>
     )
